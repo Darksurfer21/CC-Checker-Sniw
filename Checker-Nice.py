@@ -71,7 +71,7 @@ def stripe(cc):
         else:
             return '❌ ' + str(response.get('error', 'Unknown error'))
 
-bot = telebot.TeleBot('7900963523:AAGmz7jeyKWEvs02XHNHhCMZqdfb2M-YSno'')
+bot = telebot.TeleBot('7900963523:AAGmz7jeyKWEvs02XHNHhCMZqdfb2M-YSno')
 
 # Global variable to control the state of the bot
 running = False
